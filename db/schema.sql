@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS `employee-database-tracker_db`;
+USE `employee-database-tracker_db`;
+
 CREATE TABLE departments (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(30) NOT NULL

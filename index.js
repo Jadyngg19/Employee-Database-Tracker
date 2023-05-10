@@ -1,10 +1,9 @@
 const inquirer = require('inquirer');
-const mysql2 = require('mysql');
+const mysql = require('mysql2');
 
 // Creating the connection to the Database
 const connection = mysql.createConnection({
     host: 'localhost',
-    port: 3306,
     user: 'root',
     password: 'Red&Blue2001$$$',
     database:'Employee-Database-Tracker_db'
