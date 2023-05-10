@@ -1,5 +1,5 @@
 CREATE DATABASE IF NOT EXISTS `employee-database-tracker_db`;
-USE `employee-database-tracker_db`;
+USE `employee_database_tracker_db`;
 
 CREATE TABLE departments (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -21,7 +21,7 @@ CREATE TABLE employees (
     role_id INT NOT NULL,
     manager_id INT,
     FOREIGN KEY (role_id) REFERENCES roles(id),
-    FOREIGN KEY (manager_id) REFERENCES employee(id)
+    FOREIGN KEY (manager_id) REFERENCES employees(id)
 );
 
 -- Adding in a sample department, role, and employee
