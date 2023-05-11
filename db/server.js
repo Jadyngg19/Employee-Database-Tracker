@@ -1,4 +1,5 @@
 const mysql = require('mysql2');
+
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
@@ -6,4 +7,4 @@ const db = mysql.createConnection({
     database:'employee_database_tracker_db',
 });
 
-module.exports = db;
+  module.exports = db;
