@@ -18,29 +18,29 @@ Once the dependencies are installed, you can start the application using the fol
 
 his application is built using the following technologies and libraries:
 
-Node.js: A JavaScript runtime environment that allows us to run JavaScript code outside of a web browser.
-Inquirer.js: A powerful library for creating interactive command-line interfaces.
-MySQL: A popular open-source relational database management system.
+1. Node.js: A JavaScript runtime environment that allows us to run JavaScript code outside of a web browser.
+2. Inquirer.js: A powerful library for creating interactive command-line interfaces.
+3. MySQL: A popular open-source relational database management system.
 
 ## Usage
 Upon starting the application, you will be presented with a menu of options:
 
-View All Departments: Displays a formatted table showing department names and department IDs.
-View All Roles: Displays a formatted table showing job titles, role IDs, associated departments, and salaries.
-View All Employees: Displays a formatted table showing employee data, including employee IDs, first names, last names, job titles, departments, salaries, and managers.
-Add a Department: Prompts you to enter the name of a department and adds it to the database.
-Add a Role: Prompts you to enter the name, salary, and department for a role and adds it to the database.
-Add an Employee: Prompts you to enter the employee's first name, last name, role, and manager, and adds the employee to the database.
-Update an Employee Role: Prompts you to select an employee to update and their new role, then updates the employee's role in the database.
-To navigate through the menu, simply use the arrow keys to highlight your desired option and press Enter to select it.
+* View All Departments: Displays a formatted table showing department names and department IDs.
+* View All Roles: Displays a formatted table showing job titles, role IDs, associated departments, and salaries.
+* View All Employees: Displays a formatted table showing employee data, including employee IDs, first names, last names, job titles, departments, salaries, and managers.
+* Add a Department: Prompts you to enter the name of a department and adds it to the database.
+* Add a Role: Prompts you to enter the name, salary, and department for a role and adds it to the database.
+* Add an Employee: Prompts you to enter the employee's first name, last name, role, and manager, and adds the employee to the database.
+* Update an Employee Role: Prompts you to select an employee to update and their new role, then updates the employee's role in the database.
+* To navigate through the menu, simply use the arrow keys to highlight your desired option and press Enter to select it.
 
 ## Features
 
-View departments, roles, and employees.
-Add new departments, roles, and employees.
-Update an employee's role.
-User-friendly command-line interface.
-Data validation and error handling.
+* View departments, roles, and employees.
+* Add new departments, roles, and employees.
+* Update an employee's role.
+* User-friendly command-line interface.
+* Data validation and error handling.
 
 ## License
 
