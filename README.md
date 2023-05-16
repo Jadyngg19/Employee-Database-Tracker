@@ -34,6 +34,13 @@ Upon starting the application, you will be presented with a menu of options:
 * Update an Employee Role: Prompts you to select an employee to update and their new role, then updates the employee's role in the database.
 * To navigate through the menu, simply use the arrow keys to highlight your desired option and press Enter to select it.
 
+![Viewing all of the Data in the Database](./Images/Viewing%20All%20Employees%2C%20Departments%2C%20and%20Roles.png)
+![Adding a New Employee](./Images/Adding%20an%20Employee.png)
+![Adding a New Department](./Images/Adding%20a%20Department.png)
+![Adding a New Role](./Images/Adding%20a%20New%20Role.png)
+![Updated Data](./Images/Updated%20Information.png)
+![Updating an Employee Role](./Images/Updating%20an%20Employee%20Role.png)
+
 ## Features
 
 * View departments, roles, and employees.
